@@ -1,0 +1,20 @@
+<h1>Esto es el index</h1>
+<section class="section-products">
+    {{#each products}}
+    <div class="product-card">
+        {{#if this.photo}}
+            <img src={{this.photo}} alt="{{this._id}}" class="product-image">
+            {{else}}
+            <img class="product-image"  src="https://img.freepik.com/vector-gratis/gradiente-ilustracion-pajaro-colorido_343694-1741.jpg" alt="">
+        {{/if}}
+        <div class="product-info">
+            <h2 class="product-title">{{this.title}}</h2>
+            <p class="product-price">${{this.price}}</p>
+            <p class="product-stock">Stock: {{this.stock}}</p>
+            <p class="product-category">Category: {{this.category}}</p>
+            <a href="/product/{{this._id}}" class="product-info-boton"> + info</a>
+        </div>
+    </div>
+    {{/each}}
+</section>
+<script src="./index.js"></script>

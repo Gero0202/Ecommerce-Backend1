@@ -1,0 +1,322 @@
+[
+  {
+    "_id": "5b230dbb8f8b91939fda85e4",
+    "title": "Electronic Wooden Cheese",
+    "price": "166.45",
+    "stock": 815,
+    "thumbnail": "https://picsum.photos/seed/bIsIUXr4i/2095/197",
+    "category": "ninguna"
+  },
+  {
+    "_id": "deeabab623fbc6f35c8bce42",
+    "title": "Tasty Concrete Hat",
+    "price": "210.39",
+    "stock": 177,
+    "thumbnail": "https://picsum.photos/seed/4lGXjdiIF/100/2529",
+    "category": "computadoras"
+  },
+  {
+    "_id": "3a1f4cdefdcbefa5deb47fbe",
+    "title": "Electronic Granite Mouse",
+    "price": "98.85",
+    "stock": 99,
+    "thumbnail": "https://loremflickr.com/1621/3496?lock=7796741295465871",
+    "category": "celulares"
+  },
+  {
+    "_id": "ff6755a6522eeb46a500e6a5",
+    "title": "Ergonomic Rubber Fish",
+    "price": "24.64",
+    "stock": 54,
+    "thumbnail": "https://loremflickr.com/2450/3783?lock=633689081062098",
+    "category": "accesorios"
+  },
+  {
+    "_id": "1adde6edcd4a3ca7cc7aabd3",
+    "title": "Incredible Wooden Gloves",
+    "price": "246.35",
+    "stock": 491,
+    "thumbnail": "https://picsum.photos/seed/7U0gY/3304/1829",
+    "category": "ninguna"
+  },
+  {
+    "_id": "db60d14bbecedd3eacdcc4f8",
+    "title": "Small Concrete Gloves",
+    "price": "220.29",
+    "stock": 604,
+    "thumbnail": "https://picsum.photos/seed/oRcnQ6Aw/3263/3722",
+    "category": "celulares"
+  },
+  {
+    "_id": "78be4dfec6dc2ac7870f43f7",
+    "title": "Oriental Soft Chips",
+    "price": "94.69",
+    "stock": 748,
+    "thumbnail": "https://loremflickr.com/3544/412?lock=8574834494065612",
+    "category": "computadoras"
+  },
+  {
+    "_id": "4aac6e6bfbcb8dc21b7dfe41",
+    "title": "Bespoke Soft Fish",
+    "price": "281.79",
+    "stock": 349,
+    "thumbnail": "https://loremflickr.com/2482/1949?lock=5822457928265990",
+    "category": "computadoras"
+  },
+  {
+    "_id": "dacedbb23fc773ee7ee6dda8",
+    "title": "Small Soft Chips",
+    "price": "371.59",
+    "stock": 334,
+    "thumbnail": "https://loremflickr.com/2259/455?lock=8060698656905958",
+    "category": "accesorios"
+  },
+  {
+    "_id": "2a8ae980081e2eff8ef7c6c5",
+    "title": "Luxurious Rubber Bike",
+    "price": "87.99",
+    "stock": 180,
+    "thumbnail": "https://loremflickr.com/1185/3524?lock=6418334894231062",
+    "category": "computadoras"
+  },
+  {
+    "_id": "0cee69b9e73bc119a3adff13",
+    "title": "mouse",
+    "stock": 1000,
+    "precio": 5,
+    "category": "accesorios",
+    "thumbnail": "https://loremflickr.com/1132/2124?lock=6845368567384608"
+  },
+  {
+    "_id": "74a9803facefaf1dbf1b3dc9",
+    "title": "MACBOOK",
+    "stock": 300,
+    "price": 300,
+    "category": "accesorios",
+    "thumbnail": "https://i.pinimg.com/736x/fc/eb/0f/fceb0fe95b02adf037194f5afe3c815d.jpg"
+  },
+  {
+    "_id": "12bcddefb65ee4eb029d495c",
+    "title": "Mate",
+    "stock": 300,
+    "price": 300,
+    "category": "accesorios",
+    "thumbnail": "https://i.pinimg.com/736x/9b/33/66/9b336666132a1bafdb1731067a9fc5d2.jpg"
+  },
+  {
+    "_id": "9eb27f2c74665a2d5fba3454",
+    "title": "Monitor",
+    "stock": 3,
+    "price": 34,
+    "category": "accesorios",
+    "thumbnail": "https://i.pinimg.com/736x/26/31/16/263116ff7f3d5af1e08a47f4a8231a73.jpg"
+  },
+  {
+    "_id": "c8f28e72f3ebde7cf0e6bbad",
+    "title": "book",
+    "stock": 3,
+    "price": 34,
+    "category": "accesorios",
+    "thumbnail": "https://definicion.com/wp-content/uploads/2022/09/imagen.jpg"
+  },
+  {
+    "_id": "cbbf4bb238debeed3e9e7c4b",
+    "title": "Wireless Eardbuds",
+    "stock": 2,
+    "price": 34,
+    "category": "technology",
+    "thumbnail": "https://i.pinimg.com/736x/20/c3/b1/20c3b11cc696928982961a88acf60660.jpg"
+  },
+  {
+    "_id": "2b9f0fb4abf25cd6ef063dcf",
+    "title": "LED desk lamp",
+    "stock": 1,
+    "price": 54,
+    "category": "ninguna",
+    "thumbnail": "https://i.pinimg.com/736x/f6/a5/5f/f6a55f4499aa962b7559983fdddbb0cf.jpg"
+  },
+  {
+    "_id": "df8a86aea47466fa19e1e1cd",
+    "title": "TV LCD",
+    "stock": 2,
+    "price": 84,
+    "category": "technology",
+    "thumbnail": "https://i.pinimg.com/736x/39/cd/91/39cd91d6c49ddb01927ad305b94d5504.jpg"
+  },
+  {
+    "_id": "dc51ecbff36f2cbebf98e579",
+    "title": "Camara Canon",
+    "stock": 1,
+    "price": 184,
+    "category": "technology",
+    "thumbnail": "https://i.pinimg.com/736x/57/5e/c2/575ec21682410fce7130cca653e02536.jpg"
+  },
+  {
+    "_id": "1ed4a3a12fbb54effac25fab",
+    "title": "Samsung Galaxy",
+    "stock": 3,
+    "price": 44,
+    "category": "phones",
+    "thumbnail": "https://i.pinimg.com/736x/44/db/f3/44dbf3252affe1b050eef4b7ea01c988.jpg"
+  },
+  {
+    "_id": "e3bdfdc0a584afbefb3c63cc",
+    "title": "JBL Speaker",
+    "stock": 1,
+    "price": 24,
+    "category": "technology",
+    "thumbnail": "https://i.pinimg.com/736x/d4/c2/35/d4c235cc6bba6c81583decee0f9b83f0.jpg"
+  },
+  {
+    "_id": "f257d2c41ca8cfd227b5bd2b",
+    "title": "Xbox One",
+    "stock": 1,
+    "price": 424,
+    "category": "technology",
+    "thumbnail": "https://i.pinimg.com/736x/cd/ef/37/cdef37d49df388a45bb1137297b087e0.jpg"
+  },
+  {
+    "_id": "810dccc4a4ce57c6dcfcc66b",
+    "title": "Playstation 5",
+    "stock": 1,
+    "price": 454,
+    "category": "technology",
+    "thumbnail": "https://i.pinimg.com/736x/29/37/e6/2937e6ec9a37ddce1fa106e8d42cd578.jpg"
+  },
+  {
+    "_id": "bfea92be7bedf019f5aabe3c",
+    "title": "Sony Headphones",
+    "stock": 4,
+    "price": 54,
+    "category": "technology",
+    "thumbnail": "https://i.pinimg.com/736x/df/9f/77/df9f77d12a508d2790ae5bd2033e26f1.jpg"
+  },
+  {
+    "_id": "dee033f5abbf15b8b3e1aabf",
+    "title": "GoPro",
+    "stock": 2,
+    "price": 352,
+    "category": "technology",
+    "thumbnail": "https://i.pinimg.com/736x/4a/1d/d8/4a1dd8bd0b0e3b0eb788d597d4c0df8f.jpg"
+  },
+  {
+    "_id": "4fa60ccc97ae38fefdede5a9",
+    "title": "HP Printer",
+    "stock": 1,
+    "price": 252,
+    "category": "technology",
+    "thumbnail": "https://i.pinimg.com/736x/b0/90/e9/b090e9beaf7ea7969ee031c250d99f08.jpg"
+  },
+  {
+    "_id": "34ccff7caa59fff343a59d3f",
+    "title": "Apple Watch",
+    "stock": 2,
+    "price": 52,
+    "category": "technology",
+    "thumbnail": "https://i.pinimg.com/736x/20/29/d5/2029d51d3f51b028d6f0d4b7bab3c44d.jpg"
+  },
+  {
+    "_id": "1cc3cb007c822ba0064deb40",
+    "title": "Nike Sb",
+    "stock": 2,
+    "price": 52,
+    "category": "clothes",
+    "thumbnail": "https://i.pinimg.com/736x/61/4e/39/614e397656306429afc28865d121ce98.jpg"
+  },
+  {
+    "_id": "8b2f8affde5299e74223bfae",
+    "title": "Vinilo Bob Marley - Uprisign",
+    "stock": 2,
+    "price": 82,
+    "category": "music",
+    "thumbnail": "https://i.pinimg.com/736x/b4/ab/3e/b4ab3ec862ba5111a990adb104168848.jpg"
+  },
+  {
+    "_id": "c7ddeedcbd8918f6c60fb8b7",
+    "title": "Vinilo Luis Alberto Spinetta - Kamikaze",
+    "stock": 1,
+    "price": 182,
+    "category": "music",
+    "thumbnail": "https://i.pinimg.com/736x/bb/27/b7/bb27b7ef6d861090ad0a95d36fdc8d82.jpg"
+  },
+  {
+    "_id": "d5c6aa6b6b3d0a71baab83a8",
+    "title": "Microwave",
+    "stock": 2,
+    "price": 12,
+    "category": "home",
+    "thumbnail": "https://i.pinimg.com/736x/cc/d7/29/ccd729f2352f5adc30c0055e91144ce0.jpg"
+  },
+  {
+    "_id": "e1f8a6fcedda8b0df24ec7ac",
+    "title": "vacuum cleener",
+    "stock": 2,
+    "price": 22,
+    "category": "home",
+    "thumbnail": "https://i.pinimg.com/736x/73/1f/f3/731ff38e03a8831ee9153305e4b9f0ea.jpg"
+  },
+  {
+    "_id": "bd260c8d2aeecbfdc13168b6",
+    "title": "Fan",
+    "stock": 3,
+    "price": 32,
+    "category": "home",
+    "thumbnail": "https://i.pinimg.com/736x/98/ed/ba/98edbaf42f35e6364c2197748073e0b8.jpg"
+  },
+  {
+    "_id": "927af2bdae2abf6ddcfff0f2",
+    "title": "Dell Keyboard",
+    "stock": 3,
+    "price": 32,
+    "category": "technology",
+    "thumbnail": "https://i.pinimg.com/736x/78/51/a3/7851a300eb42848ec2517b30bc906084.jpg"
+  },
+  {
+    "_id": "f48aaad628eaef7ad0ebcbd1",
+    "title": "Huawei Tablet",
+    "stock": 1,
+    "price": 132,
+    "category": "technology",
+    "thumbnail": "https://i.pinimg.com/736x/e1/fd/22/e1fd228e3dad669ac84700fdae53443e.jpg"
+  },
+  {
+    "_id": "5ebaffeafc1f1641e7c55ef6",
+    "title": "LG Fridge",
+    "stock": 1,
+    "price": 632,
+    "category": "home",
+    "thumbnail": "https://i.pinimg.com/736x/50/e2/a2/50e2a23e694a1144ea5bdad3712f3176.jpg"
+  },
+  {
+    "_id": "dbaaeb2b77fec35fbdeb25f6",
+    "title": "Casio watch",
+    "stock": 2,
+    "price": 82,
+    "category": "accesorios",
+    "thumbnail": "https://i.pinimg.com/736x/c0/c1/62/c0c162c42d6c8df2514d01794649bd31.jpg"
+  },
+  {
+    "_id": "92f2dbff9c831ee14098d4c4",
+    "title": "Bose Earbuds",
+    "stock": 2,
+    "price": 82,
+    "category": "technology",
+    "thumbnail": "https://i.pinimg.com/736x/27/78/e4/2778e46aab86e5681c2a022658570951.jpg"
+  },
+  {
+    "_id": "03c5eba9fe3ca8023518e3d6",
+    "title": "Lenovo Laptop",
+    "stock": 1,
+    "price": 131,
+    "category": "technology",
+    "thumbnail": "https://i.pinimg.com/736x/eb/81/32/eb8132b5e505b9f1f20ab97db157a574.jpg"
+  },
+  {
+    "_id": "4fd67c0ae30b07bebc92cf43",
+    "title": "Logitech Mouse",
+    "stock": 3,
+    "price": 34,
+    "category": "technology",
+    "thumbnail": "https://i.pinimg.com/736x/b1/04/7d/b1047de13e7f3d27e26e0f5d20f0dff4.jpg"
+  }
+]

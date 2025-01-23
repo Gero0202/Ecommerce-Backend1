@@ -1,0 +1,22 @@
+[
+  {
+    "_id": "219a43a032fc94bcc8f298dc",
+    "products": [
+      {
+        "product_id": "12bcddefb65ee4eb029d495c",
+        "quantity": 3
+      }
+    ],
+    "user_id": "b1a1f0a1bdbb7ace7aa38af4"
+  },
+  {
+    "_id": "2b0dfebf711d4ca10840eebd",
+    "products": [
+      {
+        "product_id": "74a9803facefaf1dbf1b3dc9",
+        "quantity": 2
+      }
+    ],
+    "user_id": "d2eeee3c9bc0b9db098d45b0"
+  }
+]

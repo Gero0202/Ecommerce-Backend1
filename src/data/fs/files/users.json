@@ -1,0 +1,102 @@
+[
+  {
+    "_id": "eacc9e59abf768d7f8ee0d5f",
+    "name": "thelma",
+    "lastName": "gusikowski",
+    "email": "thelma__gusikowski@coder.com",
+    "password": "hola1234",
+    "age": 52,
+    "avatar": "https://avatars.githubusercontent.com/u/83253948",
+    "role": "admin"
+  },
+  {
+    "_id": "ed6b6c3916ebd1dcffceefff",
+    "name": "dr.",
+    "lastName": "ed",
+    "email": "dr.__ed__cassin@coder.com",
+    "password": "hola1234",
+    "age": 21,
+    "avatar": "https://avatars.githubusercontent.com/u/98062891",
+    "role": "premium"
+  },
+  {
+    "_id": "8a8a0cbc6462f7ce50addab3",
+    "name": "josh",
+    "lastName": "herman",
+    "email": "josh__herman@coder.com",
+    "password": "hola1234",
+    "age": 22,
+    "avatar": "https://avatars.githubusercontent.com/u/56854881",
+    "role": "admin"
+  },
+  {
+    "_id": "ee355a3bda7a1be9aa9db4bb",
+    "name": "daisy",
+    "lastName": "runolfsdottir",
+    "email": "daisy__runolfsdottir@coder.com",
+    "password": "hola1234",
+    "age": 65,
+    "avatar": "https://avatars.githubusercontent.com/u/31065613",
+    "role": "premium"
+  },
+  {
+    "_id": "3cfc4b54fd331e804574bdfc",
+    "name": "ms.",
+    "lastName": "tamara",
+    "email": "ms.__tamara__keeling@coder.com",
+    "password": "hola1234",
+    "age": 34,
+    "avatar": "https://avatars.githubusercontent.com/u/14717563",
+    "role": "premium"
+  },
+  {
+    "_id": "1af3a9cb498d3e06f78dc1eb",
+    "name": "delbert",
+    "lastName": "runolfsdottir",
+    "email": "delbert__runolfsdottir@coder.com",
+    "password": "hola1234",
+    "age": 36,
+    "avatar": "https://avatars.githubusercontent.com/u/68634380",
+    "role": "premium"
+  },
+  {
+    "_id": "d2eeee3c9bc0b9db098d45b0",
+    "name": "carlitoss",
+    "lastName": "kerluke",
+    "email": "essie__kerluke__ii@coder.com",
+    "password": "hola1234",
+    "age": 70,
+    "avatar": "https://avatars.githubusercontent.com/u/8679368",
+    "role": "premium"
+  },
+  {
+    "_id": "faf206e4b20d78f43480f7b1",
+    "name": "alicia",
+    "lastName": "wisozk",
+    "email": "alicia__wisozk@coder.com",
+    "password": "hola1234",
+    "age": 29,
+    "avatar": "https://avatars.githubusercontent.com/u/8106042",
+    "role": "premium"
+  },
+  {
+    "_id": "b1a1f0a1bdbb7ace7aa38af4",
+    "name": "norma",
+    "lastName": "ernser",
+    "email": "norma__ernser@coder.com",
+    "password": "hola1234",
+    "age": 26,
+    "avatar": "https://avatars.githubusercontent.com/u/35034680",
+    "role": "premium"
+  },
+  {
+    "_id": "cdaf9f536f4fcd2edae6c8e1",
+    "name": "noel",
+    "lastName": "mitchell",
+    "email": "noel__mitchell@coder.com",
+    "password": "hola1234",
+    "age": 20,
+    "avatar": "https://avatars.githubusercontent.com/u/50634274",
+    "role": "admin"
+  }
+]
