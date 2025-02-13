@@ -3,6 +3,7 @@ import productsManager from "../data/fs/products.fs.js"
 const indexView = async (req, res, next) => {
     try {
         const all = await productsManager.readAll()
+
         const data = {
             title: "Home",
             products: all
@@ -27,7 +28,16 @@ const productView = async (req, res, next) => {
     }
 }
 
+const registerProductView = (req, res, next) => {
+    try {
+        const data = {
+            title: "Register Product"
+        };
+        return res.status(200).render("registerProduct", data);
+    } catch (error) {
+        next(error);
+    }
+};
 
 
-
-export { indexView, productView }
+export { indexView, productView, registerProductView }

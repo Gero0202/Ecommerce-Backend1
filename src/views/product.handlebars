@@ -1,11 +1,18 @@
-<section>
-    {{#if product}}
-    <h1>Esto es el product</h1>
-    <h2>{{product.title}}</h2>
-    <h3> USD {{product.price}}</h3>
-    <h3>{{product.stock}} units</h3>
-    <button>Comprar</button>
-    {{else}}
-    <h3>Not found product</h3>
-    {{/if}}
-</section>
+<div id="detail-product">
+    <section class="detail-product-container">
+        {{#if product}}
+        <h1>Esto es el producto</h1>
+        {{#if product.thumbnail}}
+        <img src={{product.thumbnail}} alt="{{this._id}}" class="product-image">
+        {{else}}
+        <img src="https://i.pinimg.com/736x/00/22/f7/0022f79582483ded38a7011bc101f34a.jpg" alt="">
+        {{/if}}
+        <p>{{product.title}}</p>
+        <p> USD {{product.price}}</p>
+        <p>{{product.stock}} units</p>
+        <button>Comprar</button>
+        {{else}}
+        <h3>Not found product</h3>
+        {{/if}}
+    </section>
+</div>

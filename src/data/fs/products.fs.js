@@ -106,7 +106,7 @@ class ProductsManager {
             await this.writeFile(all)
 
             return removedProduct
-
+            
         } catch (error) {
             throw error
         }
