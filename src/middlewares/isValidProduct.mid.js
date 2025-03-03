@@ -1,6 +1,6 @@
 const isValidProduct = (req, res, next) =>{
     try {
-        const { title, price, stock, category, thumbnail } = req.body
+        const { title, price, stock, category, thumbnails } = req.body
         if(!title){
             const error = new Error("Type title")
             error.statusCode = 400
@@ -21,7 +21,7 @@ const isValidProduct = (req, res, next) =>{
             error.statusCode = 400
             throw error
         }
-        if (!thumbnail) {
+        if (!thumbnails) {
             const error = new Error("Type thumbnail");
             error.statusCode = 400;
             throw error;

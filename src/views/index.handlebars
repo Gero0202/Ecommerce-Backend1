@@ -1,11 +1,16 @@
-<div class="bienvenida">
-    <h1 class="titulo-bienvenida">¡Bienvenido a <span class="store-name">Rolling Store</span>!</h1>
-    <p class="mensaje-bienvenida">La música no solo se escucha, se vive. En <span class="store-name">Rolling
+<div id="login">
+    <button class="button-login">Iniciar sesion</button>
+</div>
+<p id="welcome-message" style="display: none;"></p>
+
+<div class="welcome">
+    <h1 class="title-welcome">¡Bienvenido a <span class="store-name">Rolling Store</span>!</h1>
+    <p class="main-welcome-message">La música no solo se escucha, se vive. En <span class="store-name">Rolling
             Store</span> encontrarás lo mejor del universo musical: tus artistas favoritos, discos de vinilo, CDs y
         mucho más.</p>
-    <p class="mensaje-bienvenida">Aquí la música es la banda sonora de tu vida. ¡Explora, descubre y lleva tu pasión
+    <p class="main-welcome-message">Aquí la música es la banda sonora de tu vida. ¡Explora, descubre y lleva tu pasión
         musical al siguiente nivel!</p>
-    <a href="#seccion-vinilos" class="boton-bienvenida">¡Comienza a descubrir!</a>
+    <a href="#seccion-vinilos" class="button-welcome">¡Comienza a descubrir!</a>
 </div>
 
 
@@ -14,18 +19,18 @@
     <section class="cards-container">
         {{#each products}}
         <div class="card">
-            {{#if this.thumbnail}}
-            <img src={{this.thumbnail}} alt="{{this._id}}" class="product-image">
+            <div id="thumbnail"></div>
+            {{#if this.thumbnails.[0]}}
+            <img src={{this.thumbnails.[0]}} alt="{{this._id}}" class="product-image">
             {{else}}
-            <img class="product-image"
-                src="https://i.pinimg.com/736x/00/22/f7/0022f79582483ded38a7011bc101f34a.jpg"
-                alt="">
+            <img class="product-image" src="https://i.pinimg.com/736x/00/22/f7/0022f79582483ded38a7011bc101f34a.jpg"
+                alt="{{this._id}}">
             {{/if}}
             <div class="product-info">
                 <h3 class="product-title">{{this.title}}</h3>
                 <p class="product-price">${{this.price}}</p>
                 <p class="product-stock">Stock: {{this.stock}}</p>
-                <p class="product-category">Category: {{this.category}}</p>
+                <p class="product-category">Categoria: {{this.category}}</p>
                 <a href="/product/{{this._id}}" class="product-info-boton">Ver producto</a>
             </div>
         </div>
@@ -34,8 +39,8 @@
 </div>
 
 
-<div id="primer-cuadrado">
-    <div id="segundo-cuadrado">
+<div id="first-frame">
+    <div id="second-frame">
         <img src="/img/viejaslocas-contralapared.jpg" alt="">
         <div class="texto-viejaslocas">
             <p>Contra la pared - Viejas Locas</p>
@@ -46,5 +51,6 @@
         </div>
     </div>
 </div>
+
 
 <script src="./index.js"></script>

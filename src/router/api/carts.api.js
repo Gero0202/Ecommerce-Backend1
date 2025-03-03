@@ -1,12 +1,14 @@
 import { Router } from "express";
-import { addToCart, readCartsId ,readCarts, destroyCart } from "../../controllers/carts.controllers.js"
+import { addProductToCart, readProductsFromUser, updateQuantity, removeProductFromCart, totalToPay } from "../../controllers/carts.controllers.js"
 
 
 const cartsRouter = Router()
 
-cartsRouter.post("/:uid/products/:pid", addToCart)
-cartsRouter.get("/:cid", readCartsId)
-cartsRouter.get("/", readCarts)
-cartsRouter.delete("/:cid", destroyCart)
+cartsRouter.post("/", addProductToCart)
+cartsRouter.get("/users/:user_id", readProductsFromUser)
+cartsRouter.put("/:cart_id", updateQuantity)
+cartsRouter.delete("/:cart_id", removeProductFromCart)
+cartsRouter.get("/total/:user_id", totalToPay)
+
 
 export default cartsRouter

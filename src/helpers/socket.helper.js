@@ -1,5 +1,7 @@
 import { socketServer } from "../../index.js";
-import productsManager from "../data/fs/products.fs.js";
+//import productsManager from "../data/fs/products.fs.js";
+import productsManager from "../data/mongo/products.mongo.js";
+
 
 async function socketHelper(socket) {
     console.log("socket ID: ", socket.id);

@@ -1,18 +1,22 @@
 <div id="detail-product">
     <section class="detail-product-container">
         {{#if product}}
-        <h1>Esto es el producto</h1>
-        {{#if product.thumbnail}}
-        <img src={{product.thumbnail}} alt="{{this._id}}" class="product-image">
+        <h1>Vinilo</h1>
+        {{#if product.thumbnails.[0]}}
+        <img src={{product.thumbnails.[0]}} alt="{{this._id}}" class="product-image">
         {{else}}
         <img src="https://i.pinimg.com/736x/00/22/f7/0022f79582483ded38a7011bc101f34a.jpg" alt="">
         {{/if}}
         <p>{{product.title}}</p>
-        <p> USD {{product.price}}</p>
-        <p>{{product.stock}} units</p>
-        <button>Comprar</button>
+        <p> $ {{product.price}}</p>
+        <p>{{product.stock}} Disponibles</p>
+        <button id="addToCartBtn" data-product-id="{{product._id}}">Agregar al carrito</button>
+        <div id="cart-message"></div>
+        
         {{else}}
         <h3>Not found product</h3>
         {{/if}}
     </section>
 </div>
+
+<script src="/js/addProduct.js"></script>

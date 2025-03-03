@@ -3,7 +3,7 @@
     "_id": "5b230dbb8f8b91939fda85e4",
     "title": "Kendrick Lamar - DAMN",
     "price": "166.45",
-    "stock": 815,
+    "stock": 10,
     "thumbnail": "https://i.pinimg.com/736x/82/5a/f3/825af313a358ea210a5610e8b2e84e78.jpg",
     "category": "Hip-Hop"
   },
@@ -398,5 +398,13 @@
     "thumbnail": "https://i.pinimg.com/736x/78/f3/3c/78f33cb7786b7b49f198115e73780433.jpg",
     "stock": "3",
     "category": "Soul"
+  },
+  {
+    "_id": "dc0a40ba5e0930abaff91ffb",
+    "title": "kendrivck",
+    "price": "67",
+    "thumbnail": "",
+    "stock": "4",
+    "category": "rap"
   }
 ]

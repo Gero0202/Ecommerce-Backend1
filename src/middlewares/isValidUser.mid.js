@@ -1,6 +1,6 @@
 const isValidUser = (req, res, next) =>{
     try {
-        const { name, email, password, age } = req.body
+        const { name, email, password, date } = req.body
         if (!name) {
             const error = new Error("empty type name")
             error.statusCode = 404
@@ -16,12 +16,12 @@ const isValidUser = (req, res, next) =>{
             error.statusCode = 404
             throw error
         }
-        if (!age) {
+        if (!date) {
             const error = new Error("empty type age")
             error.statusCode = 404
             throw error
         }
-        if (age < 18) {
+        if (date < 18) {
             const error = new Error("you must have 18")
             error.statusCode = 404
             throw error

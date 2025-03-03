@@ -1,13 +1,16 @@
-import usersManager from "../data/fs/users.fs.js";
-
+//import usersManager from "../data/fs/users.fs.js";
+import usersManager from "../data/mongo/users.mongo.js";
 
 const getAllUsers = async (req, res, next) => {
     try {
-        const { role } = req.query
-        const all = await usersManager.readAll(role);
+        const filter = req.query
+        const all = await usersManager.readAll(filter);
         if (all.length > 0) {
-
-            return res.status(200).json({ response: all })
+            return res.status(200).json({ 
+                method: req.method,
+                url: req.url,
+                response: all 
+            })
         }
         const error = new Error("Not found")
         error.statusCode = 404
@@ -21,7 +24,11 @@ const createUser = async (req, res, next) => {
     try {
         const data = req.body
         const one = await usersManager.create(data)
-        return res.status(201).json({ response: one })
+        return res.status(201).json({
+            method: req.method,
+            url: req.url, 
+            response: one 
+        })
     } catch (error) {
         next(error)
     }
@@ -30,13 +37,17 @@ const createUser = async (req, res, next) => {
 const readOneUser = async (req, res, next) => {
     try {
         const { uid } = req.params;
-        const user = await usersManager.readOne(uid)
-        if (!user) {
-            const error = new Error("User not found")
-            error.statusCode = 404
-            throw error
+        const user = await usersManager.readById(uid)
+        if (user) {
+            return res.status(200).json({ 
+                method: req.method,
+                url: req.url,
+                response: user 
+            })
         }
-        return res.status(200).json({ response: user })
+        const error = new Error("User not found")
+        error.statusCode = 404
+        throw error
     } catch (error) {
         next(error)
     }
@@ -46,13 +57,17 @@ const updateUser = async (req, res, next) => {
     try {
         const { uid } = req.params
         const newData = req.body
-        const updatedUser = await usersManager.updateOne(uid, newData)
-        if (!updatedUser) {
-            const error = new Error("User not found")
-            error.statusCode = 404
-            throw error
+        const updatedUser = await usersManager.updateById(uid, newData)
+        if (updatedUser) {
+            return res.status(200).json({ 
+                method: req.method,
+                url: req.url,
+                response: updatedUser 
+            })
         }
-        return res.status(200).json({ response: updatedUser })
+        const error = new Error("User not found")
+        error.statusCode = 404
+        throw error
     } catch (error) {
         next(error)
     }
@@ -61,8 +76,17 @@ const updateUser = async (req, res, next) => {
 const destroyUser = async (req, res, next) => {
     try {
         const { uid } = req.params
-        const one = await usersManager.destroyOne(uid)
-        return res.status(200).json({ response: one })
+        const one = await usersManager.destroyById(uid)
+        if (one) {
+            return res.status(200).json({ 
+                method: req.method,
+                url: req.url,
+                response: one 
+            })
+        }
+        const error = new Error("User not found")
+        error.statusCode = 404
+        throw error
     } catch (error) {
         next(error)
     }

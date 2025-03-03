@@ -1,0 +1,44 @@
+<div id="cart-container">
+    <h1>Carrito de Compras</h1>
+
+    {{#if cart.products}}
+    <div id="cart-items">
+        {{#each (groupProducts cart.products)}}
+        <div class="cart-item">
+            <div class="cart-item-info">
+                <h3>{{this.title}}</h3>
+                <p>Precio: ${{this.price}}</p>
+                <p>Cantidad: <span class="quantity">{{this.quantity}}</span> </p>
+                <p>Subtotal: {{multiply this.price this.quantity}}</p>
+            </div>
+            <form action="/cart/remove/{{this.cart_id}}" method="POST">
+                <button type="submit" class="remove-button">Eliminar</button>
+            </form>
+        </div>
+        {{/each}}
+    </div>
+
+    <div id="cart-total">
+        <h2>Total: ${{cart.total}}</h2>
+    </div>
+
+    <form action="/cart/checkout" method="POST" id="checkout-form">
+        <button type="submit" id="checkout-button">Finalizar Compra</button>
+    </form>
+
+    <form action="/cart/clear" method="POST">
+        <button type="submit" id="clear-cart-button" class="remove-button">Vaciar Carrito</button>
+    </form>
+
+
+    {{else}}
+    <h2 style="color:rgb(0, 0, 0)">Tu carrito está vacío.</h2>
+    {{/if}}
+
+    {{#if message}}
+    <p class="cart-message">{{message}} {{email}}</p>
+    {{/if}}
+</div>
+
+
+<script src="./index.js"></script>
